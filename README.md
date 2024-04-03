@@ -1,31 +1,37 @@
-# CAST AI - projekt zaliczeniowy na kurs Środowiska Udostępniania Usług
+# CAST AI - project for the Environment of Services Implementation AGH course.
 
-### Connect local repository with github
-git remote add origin https://github.com/mamikula/Service-Sharing-Environments.git
+## Topic
 
-## Wstęp 
+CAST AI - the leading all-in-one platform for Kubernetes automation, optimization, security, and cost management.
 
-Celem tego projektu jest skonstruowanie i wykonanie prostego studium przypadku, które pozwoliłoby zapoznać się z technologią CAST.AI, która jest platformą all-in-one do automatyzacji, optymalizacji, zabezpieczeń i zarządzania kosztami Kubernetes. 
-
-## Autorzy
+## Authors
 - [Jakub Łubkowski](https://github.com/jakobcodes)
 - [Kamil Miśkowiec](https://github.com/miskowieck)
 - [Marcin Mikuła](https://github.com/mamikula)
 - [Szymon Słota](https://github.com/sslota)
 
-## Założenia teoretyczne/stos technologii
+## Group 
 
-CAST AI abstrahuje warstwy specyficzne dla dostawcy technicznego złożoności, dzięki czemu można łatwo zarządzać operacjami Kubernetes na wszystkich trzech głównych dostawcach chmurowych.
+Year: 2024
+Group: 5 - Thursday, 11:30 - 13:00
 
-Platforma oferuje monitorowanie kosztów w czasie rzeczywistym oraz raporty kosztów na dłuższy okres czasu na poziomie klastra, przestrzeni nazw i obciążenia. Zapewnia także sugestie optymalizacji kosztów oraz automatyczną optymalizację za pomocą skalowania automatycznego, automatyzacji instancji typu spot, pakowania pojemników i innych funkcji.
+## Introduction
 
-Jednocześnie CAST AI sprawdza konfigurację bezpieczeństwa klastra pod kątem nieprawidłowości i potencjalnych podatności, automatycznie priorytetyzuje poprawki w celu poprawy pozycji bezpieczeństwa. Pozwala również przeskanować klaster zgodnie z standardami branżowymi, w tym z normami CIS Benchmarks i wieloma innymi.
-
-
-### Topic of the project
-
-CAST AI is the leading all-in-one platform for Kubernetes automation, optimization, security, and cost management. <br>
-https://cast.ai/ <br>
-CAST AI is a cloud optimization platform that cuts cloud bills in half for AWS,
+[CAST AI](https://cast.ai/) is a cloud optimization platform that cuts cloud bills in half for AWS,
 Google Cloud Platform, and Microsoft Azure customers who use the cloudnative technology of Kubernetes. Powered by AI, it analyzes multiple data
 points to find an optimal cost-performance ratio.
+
+### Goal of the project 
+
+The aim of this project is to construct and perform a simple case study that would allow for familiarization with CAST.AI technology, which is an all-in-one platform for Kubernetes automation, optimization, security, and cost management.
+
+## 2. Theoretical background/technology stack
+
+CAST AI is an all-in-one platform for Kubernetes automation, optimization, security, and cost management. It abstracts layers of provider-specific technical complexity, so you can manage Kubernetes operations on all three major cloud providers with ease.
+
+The platform comes with cost monitoring for real-time and longer-period cost reports at the cluster, namespace, and workload level. It also offers cost optimization suggestions and automatic optimization using autoscaling, spot instance automation, bin packing, and other features.
+
+At the same time, CAST AI also checks your cluster security configuration for misconfigurations and any potential vulnerabilities and automatically prioritizes the fixes to improve your security posture. It also lets you scan your cluster against industry standards, incl. CIS Benchmarks and many more.
+
+##
+
