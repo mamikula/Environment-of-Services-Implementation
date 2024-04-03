@@ -3,9 +3,19 @@
 ### Connect local repository with github
 git remote add origin https://github.com/mamikula/Service-Sharing-Environments.git
 
-# Wstęp 
+## Wstęp 
 
-Celem tego projektu jest skonstruowanie i wykonanie prostego studium przypadku, które pozwoliłoby zapoznać się z technologią CAST.AI, która jest platformą all-in-one do automatyzacji, optymalizacji, zabezpieczeń i zarządzania kosztami Kubernetes. Abstrahuje warstwy specyficzne dla dostawcy technicznego złożoności, dzięki czemu możesz łatwo zarządzać operacjami Kubernetes na wszystkich trzech głównych dostawcach chmurowych.
+Celem tego projektu jest skonstruowanie i wykonanie prostego studium przypadku, które pozwoliłoby zapoznać się z technologią CAST.AI, która jest platformą all-in-one do automatyzacji, optymalizacji, zabezpieczeń i zarządzania kosztami Kubernetes. 
+
+## Autorzy
+- Jakub Łubkowski
+- Kamil Miśkowiec
+- Marcin Mikuła
+- Szymon Słota
+
+## Założenia teoretyczne/stos technologii
+
+CAST AI abstrahuje warstwy specyficzne dla dostawcy technicznego złożoności, dzięki czemu można łatwo zarządzać operacjami Kubernetes na wszystkich trzech głównych dostawcach chmurowych.
 
 Platforma oferuje monitorowanie kosztów w czasie rzeczywistym oraz raporty kosztów na dłuższy okres czasu na poziomie klastra, przestrzeni nazw i obciążenia. Zapewnia także sugestie optymalizacji kosztów oraz automatyczną optymalizację za pomocą skalowania automatycznego, automatyzacji instancji typu spot, pakowania pojemników i innych funkcji.
 
