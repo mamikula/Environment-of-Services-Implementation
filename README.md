@@ -13,9 +13,10 @@ CAST AI - the leading all-in-one platform for Kubernetes automation, optimizatio
 ## Group 
 
 Year: 2024
-Group: 5 - Thursday, 11:30 - 13:00
+<br>
+Group: nr. 5 - Thursday, 11:30 - 13:00
 
-## Introduction
+## 1. Introduction
 
 [CAST AI](https://cast.ai/) is a cloud optimization platform that cuts cloud bills in half for AWS,
 Google Cloud Platform, and Microsoft Azure customers who use the cloudnative technology of Kubernetes. Powered by AI, it analyzes multiple data
@@ -33,5 +34,58 @@ The platform comes with cost monitoring for real-time and longer-period cost rep
 
 At the same time, CAST AI also checks your cluster security configuration for misconfigurations and any potential vulnerabilities and automatically prioritizes the fixes to improve your security posture. It also lets you scan your cluster against industry standards, incl. CIS Benchmarks and many more.
 
-##
+## 3. Case study concept description
+
+In this case study, we will be using demo microservices provided by Google. The demo can be found at this link: https://github.com/GoogleCloudPlatform/microservices-demo. This set of demo microservices will be deployed on the AWS Cloud.
+We will begin by setting up an environment on CAST AI for the microservices to run. Following this, we will deploy the microservices and monitor their performance, cost, and security using the tools provided by the CAST AI platform.
+
+This hands-on experience will provide practical insights into the capabilities and benefits of using CAST AI for cloud optimization, Kubernetes automation, security enhancement, and cost management.
+
+### Google microservices demo
+
+**Online Boutique** is composed of 11 microservices written in different
+languages that talk to each other over gRPC.
+
+| Service                                              | Language      | Description                                                                                                                       |
+| ---------------------------------------------------- | ------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| [frontend](/src/frontend)                           | Go            | Exposes an HTTP server to serve the website. Does not require signup/login and generates session IDs for all users automatically. |
+| [cartservice](/src/cartservice)                     | C#            | Stores the items in the user's shopping cart in Redis and retrieves it.                                                           |
+| [productcatalogservice](/src/productcatalogservice) | Go            | Provides the list of products from a JSON file and ability to search products and get individual products.                        |
+| [currencyservice](/src/currencyservice)             | Node.js       | Converts one money amount to another currency. Uses real values fetched from European Central Bank. It's the highest QPS service. |
+| [paymentservice](/src/paymentservice)               | Node.js       | Charges the given credit card info (mock) with the given amount and returns a transaction ID.                                     |
+| [shippingservice](/src/shippingservice)             | Go            | Gives shipping cost estimates based on the shopping cart. Ships items to the given address (mock)                                 |
+| [emailservice](/src/emailservice)                   | Python        | Sends users an order confirmation email (mock).                                                                                   |
+| [checkoutservice](/src/checkoutservice)             | Go            | Retrieves user cart, prepares order and orchestrates the payment, shipping and the email notification.                            |
+| [recommendationservice](/src/recommendationservice) | Python        | Recommends other products based on what's given in the cart.                                                                      |
+| [adservice](/src/adservice)                         | Java          | Provides text ads based on given context words.                                                                                   |
+| [loadgenerator](/src/loadgenerator)                 | Python/Locust | Continuously sends requests imitating realistic user shopping flows to the frontend.                                              |
+
+## 4. Solution architecture
+
+## 5. Environment configuration description
+
+## 6. Installation method
+
+## 7. How to reproduce - step by step
+
+### Infrastructure as Code approach
+
+## 8. Demo deployment steps:
+
+### Configuration set-up
+
+### Data preparation
+
+### Execution procedure
+
+### Results presentation
+
+## 9. Summary – conclusions
+
+## 10. References
+
+
+
+
+
 
