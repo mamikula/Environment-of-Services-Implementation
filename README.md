@@ -1,4 +1,4 @@
-# CAST.AI - projekt zaliczeniowy na kurs Środowiska Udostępniania Usług
+# CAST AI - projekt zaliczeniowy na kurs Środowiska Udostępniania Usług
 
 ### Connect local repository with github
 git remote add origin https://github.com/mamikula/Service-Sharing-Environments.git
