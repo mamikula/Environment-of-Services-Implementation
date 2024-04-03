@@ -8,10 +8,10 @@ git remote add origin https://github.com/mamikula/Service-Sharing-Environments.g
 Celem tego projektu jest skonstruowanie i wykonanie prostego studium przypadku, które pozwoliłoby zapoznać się z technologią CAST.AI, która jest platformą all-in-one do automatyzacji, optymalizacji, zabezpieczeń i zarządzania kosztami Kubernetes. 
 
 ## Autorzy
-- Jakub Łubkowski
-- Kamil Miśkowiec
-- Marcin Mikuła
-- Szymon Słota
+- [Jakub Łubkowski](https://github.com/jakobcodes)
+- [Kamil Miśkowiec](https://github.com/miskowieck)
+- [Marcin Mikuła](https://github.com/mamikula)
+- [Szymon Słota](https://github.com/sslota)
 
 ## Założenia teoretyczne/stos technologii
 
