@@ -66,11 +66,23 @@ languages that talk to each other over gRPC.
 
 ## 5. Environment configuration description
 
+The environment configuration for our project is established on the AWS Cloud, leveraging the CAST AI platform and the Google microservices demo.
+
+To configure this environment, we started by setting up a Kubernetes cluster on Amazon EKS, using AWS as our cloud provider. Amazon EKS provides a managed environment for deploying, managing, and scaling our containerized applications using Kubernetes.
+
+Following this, we configured CAST AI platform to monitor and manage the Kubernetes deployments. CAST AI provides an all-in-one platform for Kubernetes automation, optimization, security, and cost management. Its inbuilt features of autoscaling, spot instance automation, bin packing etc., will help us to optimize the resources and manage the cost effectively.
+
+The Google microservices demo we're utilising is a cloud-native microservices demo application. The application is composed of 11 microservices that simulate an e-commerce website. Each microservice is written in a different language, and they communicate with each other over gRPC. These services were deployed on the Kubernetes cluster.
+
+In conclusion, the environment configuration involves the strategic setup and integration of various technologies to create a platform for our case study.
+
+
 ## 6. Installation method
 
 ## 7. How to reproduce - step by step
 
 ### Infrastructure as Code approach
+Infrastructure will be deployed using IaC (Infrastructure as Code) approach using Terraform. 
 
 ## 8. Demo deployment steps:
 
