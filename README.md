@@ -62,7 +62,7 @@ languages that talk to each other over gRPC.
 
 ## 4. Solution architecture
 
-![image](https://github.com/mamikula/Environment-of-Services-Implementation/assets/85311656/f9456262-7001-4ac4-9ea3-00e06cb86888)
+![image](https://github.com/mamikula/Environment-of-Services-Implementation/assets/85311656/52a2faa2-61a4-4a8c-95e4-163d1dee9504)
 
 ## 5. Environment configuration description
 
