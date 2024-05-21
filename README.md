@@ -78,6 +78,7 @@ In conclusion, the environment configuration involves the strategic setup and in
 
 
 ## 6. Installation method
+![castai_con](https://github.com/mamikula/Environment-of-Services-Implementation/assets/92372251/2c2b0dfa-e67a-40bc-bc36-3273b70f000f)
 
 ## 7. How to reproduce - step by step
 
