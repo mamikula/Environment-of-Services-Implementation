@@ -87,7 +87,7 @@ Infrastructure will be deployed using IaC (Infrastructure as Code) approach usin
 ## 8. Demo deployment steps:
 
 ### Configuration set-up
-
+curl -H "Authorization: Token" "https://api.cast.ai/v1/agent.yaml?provider=eks" | kubectl apply -f -
 ### Data preparation
 
 ### Execution procedure
