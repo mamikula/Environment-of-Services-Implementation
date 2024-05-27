@@ -89,15 +89,87 @@ Infrastructure will be deployed using IaC (Infrastructure as Code) approach usin
 
 ### Configuration set-up
 curl -H "Authorization: Token" "https://api.cast.ai/v1/agent.yaml?provider=eks" | kubectl apply -f -
-### Data preparation
-
-### Execution procedure
 
 ### Results presentation
 
+#### Home view (list of created clusters)
+
+![castai_clusters_list](screenshots/image1.png)
+
+#### Dashboard of our cluster
+
+![castai_clusters_list](screenshots/image2.png)
+![castai_clusters_list](screenshots/image3.png)
+
+#### Cost monitoring
+
+- Cost per cluster
+  
+![castai_clusters_list](screenshots/image4.png)
+
+- Cost per service
+
+![castai_clusters_list](screenshots/image6.png)
+![castai_clusters_list](screenshots/image7.png)
+
+- Cost per namespace
+
+![castai_clusters_list](screenshots/image8.png)
+
+#### Available savings
+
+- without using spot instances
+![castai_clusters_list](screenshots/image10.png)
+
+- with using spot instances
+![castai_clusters_list](screenshots/image9.png)
+
+#### Node list
+
+![castai_clusters_list](screenshots/image12.png)
+
+#### Cluster efficiency
+![castai_clusters_list](screenshots/image15.png)
+
+#### Security - best practices
+
+![castai_clusters_list](screenshots/image18.png)
+
+#### Scheduled rebalancing
+
+![castai_clusters_list](screenshots/image21.png)
+
 ## 9. Summary – conclusions
 
+Our project has provided valuable insights and practical experience in Kubernetes automation, optimization, security, and cost management. Here are the key conclusions drawn from our study:
+
+1. **Efficiency Gains**: CAST AI significantly enhances the efficiency of Kubernetes operations by automating resource management and optimization tasks, reducing the manual effort required.
+
+2. **Cost Savings**: The platform's ability to optimize cloud resource usage, including features like spot instance automation and bin packing, effectively reduces operational costs. This was evident in the cost savings observed in our case study.
+
+3. **Scalability**: CAST AI's autoscaling capabilities ensure that the Kubernetes cluster can dynamically adjust to varying loads, maintaining performance while optimizing resource usage.
+
+4. **Security Enhancements**: The security audit and automatic prioritization of fixes provided by CAST AI improves cluster’s security posture, ensuring compliance with industry standards like CIS Benchmarks.
+
+5. **Real-Time Monitoring**: The platform's real-time monitoring tools for cost, performance, and security allowed us to maintain continuous oversight of our Kubernetes environment, quickly identifying and addressing any issues.
+
+6. **Integration and Setup**: Integrating CAST AI with AWS and deploying the Google microservices demo on the Kubernetes cluster was straightforward. The detailed documentation and support from CAST AI facilitated a smooth setup process.
+
+7. **Comprehensive Insights**: The detailed dashboards and reports on cost per cluster, service, and namespace provided us with granular insights into our cloud expenditure, highlighting areas for potential savings.
+
+8. **Main Drawback**: The primary limitation we encountered was that the free tier of CAST AI only provided observational tools. This restriction prevented us from fully testing the platform's optimization and automation capabilities in practice.
+
+![image](https://github.com/mamikula/Environment-of-Services-Implementation/assets/85311656/867a9aa9-843c-4c14-ae02-4da9f0cf7098)
+
+
 ## 10. References
+
+1. [CAST AI Official Website](https://cast.ai)
+2. [Amazon EKS Documentation](https://docs.aws.amazon.com/eks)
+3. [Google Cloud Platform Microservices Demo](https://github.com/GoogleCloudPlatform/microservices-demo)
+4. [Kubernetes Documentation](https://kubernetes.io/docs)
+5. [CIS Kubernetes Benchmark](https://www.cisecurity.org/benchmark/kubernetes)
+6. [Terraform Documentation](https://www.terraform.io/docs)
 
 
 
