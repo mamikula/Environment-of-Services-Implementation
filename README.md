@@ -85,6 +85,10 @@ In conclusion, the environment configuration involves the strategic setup and in
 ### Infrastructure as Code approach
 Infrastructure will be deployed using IaC (Infrastructure as Code) approach using Terraform. 
 
+[eks_cluster.tf](eks_cluster.tf) - Cluster config
+
+[node_group.tf](node_group.tf) - Node group config
+
 ## 8. Demo deployment steps:
 
 ### Configuration set-up
